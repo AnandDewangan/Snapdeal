@@ -113,6 +113,7 @@ aside .w3-content img{
 .trading_product div{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .trading_product h3{
@@ -131,6 +132,8 @@ aside .w3-content img{
     height: 30vh;
     box-shadow: 1px 1px 5px wheat, 2px 2px 5px red;
     cursor: pointer;
+    padding: 10px;
+    margin: 10px
 }
 
 .trading_product div img:hover{
@@ -145,6 +148,7 @@ aside .w3-content img{
 footer{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 footer .mainfooter h5{
@@ -157,6 +161,7 @@ footer .mainfooter p{
     letter-spacing: 1px;
     padding-top: 2px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 footer .mainfooter p:hover{
@@ -165,7 +170,6 @@ footer .mainfooter p:hover{
 
 .subfooter{
     margin-top: 5vh;
-    height: 5vh;
     background-color: #53575f;
 }
 

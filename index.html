@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Online for Men, Women & Kids Clothing, Shoes, Home Decor Items</title>
+    <link rel="shortcut icon" href="https://www.snapdeal.com/img/icons/finalFavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+
+<body>
+    <header>
+        <nav class="sub_navbar">
+            <div class="left_side">Brand Waali Quality, Bazaar Waali Deal!</div>
+            <div class="right_side">
+                <ul>
+                    <li><a href="https://impactatsnapdeal.com/">Impact@Snapdeal</a></li>
+                    <li><a href="https://www.snapdeal.com/products/digital-entertainment?sort=plrty">Gift Cards</a></li>
+                    <li><a href="https://www.snapdeal.com/help">Help Center</a></li>
+                    <li><a href="https://sellers.snapdeal.com/">Sell On Snapdeal</a></li>
+                    <li><a href="https://www.snapdeal.com/">Download App</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="main_navbar">
+            <img src="https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg" alt="" class="logo">
+            <div class="left_side">
+                <input type="text" placeholder="Search products & brands..." class="search_bar">
+                <button class="search_button">Search</button>
+            </div>
+            <div class="right_side">
+                <p class="card">Card <i class='fa fa-shopping-bag'></i></p>
+                <p class="sign_in">Sign In <i class='fa fa-user-circle'></i></p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <div class="left_side">
+                <ul>
+                    <li>Men's Fashion</li>
+                    <li>Women's Fashion</li>
+                    <li>Home and Kitchen</li>
+                    <li>Toys, Kid's Fashion</li>
+                    <li>Beauty, Health and Daily Need's</li>
+                </ul>
+            </div>
+            <div class="w3-content w3-section">
+                <img class="mySlides" src="pexels-karolina-grabowska-5632334.jpg">
+                <img class="mySlides" src="pexels-karolina-grabowska-5632386.jpg">
+                <img class="mySlides" src="pexels-karolina-grabowska-5632402.jpg">
+                <img class="mySlides" src="pexels-sam-lion-5709656.jpg">
+                <img class="mySlides" src="pexels-tim-douglas-6567607.jpg">
+            </div>
+
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+        </aside>
+
+        <section class="trading_product">
+            <h3>Trading Products</h3>
+            <div class="images">
+                <img src="p1.jpg" alt=""><img src="p2.jpg" alt=""><img src="p3.jpg" alt=""><img src="p4.jpg" alt=""><img
+                    src="p5.jpg" alt="">
+                    
+            </div>
+        </section>
+        <section class="trading_product">
+            <h3>Featured Products</h3>
+            <div class="images">
+                <img src="f1.jpg" alt=""><img src="f2.jpg" alt=""><img src="f3.jpg" alt=""><img src="f4.jpg" alt=""><img
+                    src="f5.jpg" alt="">
+                    
+            </div>
+        </section>
+        <section class="snapdeal"><img src="snapdeal download.png" alt="download snapdeal"></section>
+    </main>
+
+    <footer>
+        <div class="mainfooter">
+            <h5>Policy Info</h5>
+            <p>Privacy Policy</p>
+            <p>Terms of sale</p>
+            <p>Terms of use</p>
+            <p>Reports takedow  privacy</p>
+        </div>
+        <div class="mainfooter">
+            <h5>Company</h5>
+            <p>Impact@snapdeal</p>
+            <p>Careers</p>
+            <p>Blog</p>
+            <p>Sidemap</p>
+        </div>
+        <div class="mainfooter">
+            <h5>Snapdeal Bussiness</h5>
+            <p>Shopping App</p>
+            <p>Sell on Snapdeal</p>
+            <p>Media Enquiries</p>
+            <p>Contact us</p>
+        </div>
+        <div class="mainfooter">
+            <h5>Popular Links</h5>
+            <p>Lahenga</p>
+            <p>Kid's Clothing</p>
+            <p>sarees</p>
+            <p>winter wear</p>
+        </div>
+    </footer>
+
+    <footer class="subfooter">
+        <p>This website making by😎 Anand Kumar  📧<a href="Mr.Anand.Dewangan@gmail.com"> Mr.Anand.Dewangan@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
